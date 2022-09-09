@@ -1,6 +1,9 @@
 # EyeTrackingDataSet
 This repository contains an eye tracking dataset that was used to evaluate deviations caused by vibration of a head worn eye tracking device. 
 
+## Please Cite
+You may use this data for scientific, non-commercial purposes, provided that you give credit to the owners when publishing any work based on this data. We would also be very interested to hear back from you if you use our data in any way and are happy to answer any questions or address any remarks related to it. For citation use quote [1].
+
 ## Information about the task
 All eye tracking data was recorded with a Tobii Pro Glasses 2. Ten participants attended the study. 13 targets (markers) were given in to focus for 3 seconds. The distribution is shown in [1,2]. The participants had to focus a reference marker to start the measurement. Then the participants were asked to focus on the first marker for three seconds and returning with the gaze to the reference marker for one second. This sequence were used for all 13 markers.
 The measurements were repeated eight times. In each odd measurement the vibration was inactive, in each even measurement the vibration was active. Vibrations could be seen in the video. Due to data privacy the video content can't be shared. The end of each measurement can be found in the data by searching for Event(column 14): "RecordingPause". The order of focussing the markers were randomized and are given in file "Marker_sequence.xlsx". Further information on the process can be read in detail in [1].
