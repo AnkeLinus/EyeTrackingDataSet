@@ -3,7 +3,11 @@ This repository contains an eye tracking dataset that was used to evaluate devia
 
 ## Inforamtion about the task
 All eye tracking data was recorded with a Tobii Pro Glasses 2. Ten participants attended the study. 13 targets (markers) were given in to focus for 3 seconds. The distribution is shown in [1,2]. The participants had to focus a reference marker to start the measurement. Then the participants were asked to focus on the first marker for three seconds and returning with the gaze to the reference marker for one second. This sequence were used for all 13 markers.
-The measurements were repeated eight times. In each odd measurement the vibration was inactive, in each even measurement the vibration was active. Vibrations could be seen in the video. Due to data privacy the video content can't be shared. The end of each measurement can be found in the data by searching for Event(column 14): "RecordingPause". The order of focussing the markers were randomized and are given in file "Marker_sequence_xlsx". Further information on the process can be read in detail in [1].
+The measurements were repeated eight times. In each odd measurement the vibration was inactive, in each even measurement the vibration was active. Vibrations could be seen in the video. Due to data privacy the video content can't be shared. The end of each measurement can be found in the data by searching for Event(column 14): "RecordingPause". The order of focussing the markers were randomized and are given in file "Marker_sequence.xlsx". Further information on the process can be read in detail in [1].
+
+For easier reference all markers were given a number as seen below.
+![Marker distribution and references](https://github.com/AnkeLinus/EyeTrackingDataSet/issues/1#issue-1367541683)
+
 
 ## Notes to anomalies in data
 If you want to use this dataset for further evaluation, please be aware of following problems in data recording. It is suggested to exclude the given trials.
